@@ -13,4 +13,4 @@ agent {
   }
 ```
 
-`wrapdocker` is based on https://github.com/jpetazzo/dind/blob/master/wrapdocker.
+`Dockerfile` and `wrapdocker` are based on https://github.com/jpetazzo/dind/blob/master/wrapdocker.
