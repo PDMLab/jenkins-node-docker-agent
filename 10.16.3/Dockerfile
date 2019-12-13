@@ -35,3 +35,6 @@ CMD ["wrapdocker"]
 
 RUN curl -L https://github.com/docker/compose/releases/download/1.23.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 RUN chmod +x /usr/local/bin/docker-compose
+
+RUN npm install --global npm@6.13.4
+RUN npm install --global --force yarn@1.21.1
